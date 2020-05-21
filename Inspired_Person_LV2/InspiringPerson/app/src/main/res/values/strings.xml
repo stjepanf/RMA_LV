@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">InspiringPerson</string>
+    <string name="title">Title</string>
+    <string name="opis">Opis</string>
+    <string name="jobs">Steve Jobs je bio izvršni direktor, biznismen i dizajner tvrtke Apple Inc., čiji je suosnivač. Bio je jedan je od najutjecajnijih ljudi u svijetu računalne industrije. Neki od poznatijih proizvoda tvrke Apple u čijem je razvijanju sudjelovao su iPhone, iPad, iPod i Mac.</string>
+    <string name="name">Name:</string>
+</resources>

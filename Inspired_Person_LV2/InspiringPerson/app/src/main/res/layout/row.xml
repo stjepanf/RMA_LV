@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/CD"
+    >
+    
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="15dp"
+        android:id="@+id/RL"
+        >
+        <ImageView
+        android:id="@+id/imageCard"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        />
+        
+        <TextView
+            android:id="@+id/Imeprezime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_toEndOf="@id/imageCard"
+            android:layout_marginStart="10dp"
+            />
+        <TextView
+            android:id="@+id/godina"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/title"
+            android:textSize="15sp"
+            android:layout_toEndOf="@id/imageCard"
+            android:layout_marginStart="10dp"
+            android:layout_below="@id/Imeprezime"
+            />
+
+        <TextView
+            android:id="@+id/opis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/opis"
+            android:textSize="15sp"
+            android:layout_toEndOf="@id/imageCard"
+            android:layout_below="@id/godina"
+            android:layout_marginStart="10dp"
+            />
+        
+    </RelativeLayout>
+</androidx.cardview.widget.CardView>
