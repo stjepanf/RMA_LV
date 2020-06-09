@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Soundboard</string>
+    <string name="shootGunText">Shoot Gun</string>
+    <string name="shootSniperText">Sniper</string>
+</resources>
